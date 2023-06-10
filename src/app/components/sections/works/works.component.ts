@@ -17,6 +17,8 @@ export class WorksComponent implements OnInit {
     }
   ];
 
+
+
   constructor() {
     this.workFilter = 'all';
     this.singleGallery1 = [
