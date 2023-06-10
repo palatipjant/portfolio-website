@@ -48,6 +48,39 @@
       class="col-md-4 col-sm-6 grid-item software"
       *ngIf="workFilter === 'all' || workFilter === 'software'"
     >
+      <a href="javascript:" class="work-content" data-toggle="modal" (click)="exampleModalCenter0.show()">
+        <div class="portfolio-item rounded shadow-dark">
+          <div class="details">
+            <span class="term">Software & Application</span>
+            <h4 class="title">100 Days of Code The Complete Python Pro Bootcamp</h4>
+            <!-- <span class="more-button"><i class="icon-options"></i></span> -->
+          </div>
+          <div class="thumb">
+            <img src="assets/images/works/python-100-days.png" alt="Portfolio-title" />
+            <div class="mask"></div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <app-ui-modal #exampleModalCenter0 dialogClass="modal-dialog-centered work-modal" [hideHeader]="true" [hideFooter]="true">
+      <div class="app-modal-body">
+        <div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+          <img src="assets/images/works/python-100-days.png" alt="Title" />
+          <h2>100 Days of Code The Complete Python Pro Bootcamp</h2>
+          <p>
+            Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!
+          </p>
+          <a href="https://github.com/palatipjant/100-Days-of-Code-The-Complete-Python-Pro-Bootcamp" target="_blank" class="btn btn-default">View on GitHub</a>
+        </div>
+      </div>
+    </app-ui-modal>
+
+    <!-- portfolio item -->
+    <div
+      class="col-md-4 col-sm-6 grid-item software"
+      *ngIf="workFilter === 'all' || workFilter === 'software'"
+    >
       <a href="javascript:" class="work-content" data-toggle="modal" (click)="exampleModalCenter.show()">
         <div class="portfolio-item rounded shadow-dark">
           <div class="details">
@@ -140,10 +173,46 @@
           <img src="assets/images/works/portfolio-website.png" alt="Title" />
           <h2>Poerfolio Website</h2>
           <p>
-            Poerfolio Website
+            Discover the Dynamic Evolution of my Work and Ideas: Explore my Portfolio Website, 
+            your gateway to witnessing the constant updates of my latest projects and insightful blog posts.
           </p>
-          <p>It's 100% Python & MongoDB for Database</p>
-          <a href="https://github.com/palatipjant/DoubleJ" target="_blank" class="btn btn-default">View on GitHub</a>
+          <a href="https://github.com/palatipjant/portfolio-website" target="_blank" class="btn btn-default">View on GitHub</a>
+        </div>
+      </div>
+    </app-ui-modal>
+
+    <div
+      class="col-md-4 col-sm-6 grid-item software"
+      *ngIf="workFilter === 'all' || workFilter === 'software'"
+    >
+      <a href="javascript:" class="work-content" data-toggle="modal" (click)="exampleModalCenter2.show()">
+        <div class="portfolio-item rounded shadow-dark">
+          <div class="details">
+            <span class="term">Software & Application</span>
+            <h4 class="title">Cereal Application</h4>
+            <span class="more-button"><i class="icon-options"></i></span>
+          </div>
+          <div class="thumb">
+            <img src="assets/images/works/cereal-app.png" alt="Portfolio-title" />
+            <div class="mask"></div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <app-ui-modal #exampleModalCenter2 dialogClass="modal-dialog-centered work-modal" [hideHeader]="true" [hideFooter]="true">
+      <div class="app-modal-body">
+        <div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+          <img src="assets/images/works/cereal-app.png" alt="Title" />
+          <h2>Cereal Application</h2>
+          <p>
+            Rise and Shine with Python's Cereal App: A Tasty Bowl of Efficiency! Start your day informed with news updates, plan your tasks with an intuitive scheduler, 
+            solve equations swiftly with the built-in calculator, and enhance your workflow with a delightful soundtrack - all served hot in this 100% Python-developed app!
+          </p>
+          <p>
+            This Python Application is one of my final projects for my first year of Computer Science at the Bangkok University.
+          </p>
+          <a href="https://github.com/palatipjant/Cereal-Application" target="_blank" class="btn btn-default">View on GitHub</a>
         </div>
       </div>
     </app-ui-modal>
