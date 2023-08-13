@@ -70,12 +70,19 @@
               <span *ngIf="this.themeConfig.theme !== 'collapsed'">Works</span>
             </a>
           </li>
+          <li class="nav-item" [ngClass]="{ active: currentSection === 'speaker' }" (click)="scrollTo('speaker')">
+            <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'speaker' }">
+              <i *ngIf="this.themeConfig.theme !== 'horizontal'" class="icon-note"></i>
+              <span *ngIf="this.themeConfig.theme !== 'collapsed'">Speaker/Hosting</span>
+            </a>
+          </li>
           <li class="nav-item" [ngClass]="{ active: currentSection === 'blog' }" (click)="scrollTo('blog')">
             <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'blog' }">
               <i *ngIf="this.themeConfig.theme !== 'horizontal'" class="icon-note"></i>
               <span *ngIf="this.themeConfig.theme !== 'collapsed'">Blog</span>
             </a>
           </li>
+          
           <li class="nav-item" [ngClass]="{ active: currentSection === 'contact' }" (click)="scrollTo('contact')">
             <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'contact' }">
               <i *ngIf="this.themeConfig.theme !== 'horizontal'" class="icon-bubbles"></i>
@@ -145,12 +152,19 @@
           <span *ngIf="this.themeConfig.theme !== 'collapsed'">Testimonials</span>
         </a>
       </li> -->
+      <li [ngClass]="{ active: currentSection === 'speaker' }" (click)="scrollTo('speaker')">
+        <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'speaker' }"
+          ><i class="icon-microphone"></i>
+          <span *ngIf="this.themeConfig.theme !== 'collapsed'">Speaker/Hosting</span>
+        </a>
+      </li>
       <li [ngClass]="{ active: currentSection === 'blog' }" (click)="scrollTo('blog')">
         <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'blog' }"
           ><i class="icon-note"></i>
           <span *ngIf="this.themeConfig.theme !== 'collapsed'">Blog</span>
         </a>
       </li>
+      
       <li [ngClass]="{ active: currentSection === 'contact' }" (click)="scrollTo('contact')">
         <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'contact' }"
           ><i class="icon-bubbles"></i>

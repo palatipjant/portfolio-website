@@ -11,6 +11,7 @@ import { ServicesComponent } from './services/services.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { WorksComponent } from './works/works.component';
 import { BlogComponent } from './blog/blog.component';
+import { SpeakerComponent } from './speaker/speaker.component';
 import { ContactComponent } from './contact/contact.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
@@ -28,6 +29,7 @@ import { NguCarouselModule } from '@ngu/carousel';
     ExperienceComponent,
     WorksComponent,
     BlogComponent,
+    SpeakerComponent,
     ContactComponent,
     PricingComponent,
     TestimonialsComponent,
@@ -41,6 +43,7 @@ import { NguCarouselModule } from '@ngu/carousel';
     ExperienceComponent,
     WorksComponent,
     BlogComponent,
+    SpeakerComponent,
     ContactComponent,
     PricingComponent,
     TestimonialsComponent,
