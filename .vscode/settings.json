@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/a71bc496-5332-433c-a0a5-f5cc97a0907b/resourceGroups/palatipjant/providers/Microsoft.Web/sites/palatipjant-port",
+    "appService.deploySubpath": "dist"
+}
