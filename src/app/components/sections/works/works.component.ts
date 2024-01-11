@@ -12,8 +12,8 @@ export class WorksComponent implements OnInit {
 
   videoObject: Array<object> = [
     {
-      video: 'https://www.youtube.com/watch?v=ElY8oyOMEUk&t=8s',
-      posterImage: 'assets/images/works/20facts.png'
+      video: 'https://youtu.be/x0qmFfuY7eo?si=Uuo51x6yMvydR7F1',
+      posterImage: 'assets/images/itsfye01.png'
     }
   ];
 
