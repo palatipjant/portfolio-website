@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit, AfterContentInit {
 
   constructor() {
     setInterval(() => {
-      this.bounce = this.bounce < 3 ? this.bounce + 1 : 1;
+      this.bounce = this.bounce < 6 ? this.bounce + 1 : 1;
     }, 3000);
   }
 

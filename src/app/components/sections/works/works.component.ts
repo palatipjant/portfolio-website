@@ -24,6 +24,13 @@ export class WorksComponent implements OnInit {
     }
   ];
 
+  videoObject2: Array<object> = [
+    {
+      video: 'https://www.youtube.com/watch?v=NyRQkzUYj0o&t=2s',
+      posterImage: 'assets/images/clip3.png'
+    }
+  ];
+
 
 
   constructor() {
