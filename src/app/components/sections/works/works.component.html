@@ -241,7 +241,7 @@
       class="col-md-4 col-sm-6 grid-item software"
       *ngIf="workFilter === 'all' || workFilter === 'mobile'"
     >
-      <a href="javascript:" class="work-content" data-toggle="modal" (click)="exampleModalCenter_portfolio_app.show()">
+      <a href="javascript:" class="work-content" data-toggle="modal" (click)="exampleModalCenterCoinChange.show()">
         <div class="portfolio-item rounded shadow-dark">
           <div class="details">
             <span class="term">Mobile</span>
@@ -256,7 +256,7 @@
       </a>
     </div>
 
-    <app-ui-modal #exampleModalCenter_portfolio_app dialogClass="modal-dialog-centered work-modal" [hideHeader]="true" [hideFooter]="true">
+    <app-ui-modal #exampleModalCenterCoinChange dialogClass="modal-dialog-centered work-modal" [hideHeader]="true" [hideFooter]="true">
       <div class="app-modal-body">
         <div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
           <img src="assets/images/coinChange.png" alt="Title" />
